@@ -1,0 +1,56 @@
+body {
+  background: #f0f8ff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.topbar {
+  background-color: #00aaff;
+  padding: 10px;
+  text-align: center;
+}
+
+.topbar img {
+  max-height: 50px;
+}
+
+.status-container {
+  margin: 20px auto;
+  width: 400px;
+  font-size: 16px;
+}
+
+.server {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.server.online {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.server.offline {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-label {
+  font-weight: bold;
+  display: block;
+}
+
+.client-version {
+  font-style: italic;
+  color: #555;
+  display: block;
+  margin-top: 4px;
+}
+
+.ip-port {
+  font-size: 14px;
+  color: #333;
+  margin-top: 4px;
+}
